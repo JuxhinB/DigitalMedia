@@ -1,0 +1,284 @@
+@font-face {
+  font-family: "JosefinSlab-Bold";
+  src: url("../fonts/JosefinSlab-Bold.ttf") format("truetype"); }
+@font-face {
+  font-family: "Tahoma-Regular";
+  src: url("../fonts/Tahoma-Regular.ttf") format("truetype"); }
+@font-face {
+  font-family: "SourceSansPro-Regular";
+  src: url("../fonts/SourceSansPro-Regular.ttf") format("truetype"); }
+@font-face {
+  font-family: "Gudea-Regular";
+  src: url("../fonts/Gudea-Regular.ttf") format("truetype"); }
+@font-face {
+  font-family: "Gudea-Bold";
+  src: url("../fonts/Gudea-Bold.ttf") format("truetype"); }
+@font-face {
+  font-family: "DancingScript-Bold";
+  src: url("../fonts/DancingScript-Bold.ttf") format("truetype"); }
+@font-face {
+  font-family: "DancingScript-Regular";
+  src: url("../fonts/DancingScript-Regular.ttf") format("truetype"); }
+@font-face {
+  font-family: "Charmonman-Regular";
+  src: url("../fonts/Charmonman-Regular.ttf") format("truetype"); }
+@font-face {
+  font-family: "Audiowide-Regular";
+  src: url("../fonts/Audiowide-Regular.ttf") format("truetype"); }
+p, ul, a, h1, h2, h3, h4, h5, h6 {
+  font-family: Gudea-Regular;
+  margin: 0;
+  display: block;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  transition: all ease 0.3s; }
+
+p, ul, ol {
+  margin: 0; }
+
+p, a {
+  color: #4a4a4a;
+  line-height: 1; }
+
+a:hover, a:visited, a:active {
+  text-decoration: none; }
+
+.menu-dark {
+  background-color: #383838de;
+  border-bottom: 1px solid #adadad; }
+  .menu-dark .menu-row .menu-col {
+    height: 50px !important; }
+
+.color-dark {
+  color: #363636 !important; }
+
+.transparent-bcg {
+  background-color: transparent !important;
+  border-bottom: 0 !important; }
+
+.display-none {
+  display: none; }
+
+.w-40 {
+  width: 40%; }
+
+.w-60 {
+  width: 60%; }
+
+.fade-top {
+  top: -1000px !important; }
+
+.vertical-scroll-disabled {
+  overflow: hidden !important;
+  height: 100%; }
+
+.red {
+  color: #f66e6f; }
+
+.bcg-red {
+  background-color: #f66e6f; }
+
+.green {
+  color: #12d879; }
+
+.bcg-green {
+  background-color: #12d879; }
+
+.yellow {
+  color: #f6cf69; }
+
+.bcg-yellow {
+  background-color: #f6cf69; }
+
+.blue {
+  color: #3498db; }
+
+.bcg-blue {
+  background-color: #3498db; }
+
+.max-container {
+  max-width: 1900px; }
+
+.max-row {
+  max-width: 1200px; }
+
+.dropdown-toggle::after {
+  content: none; }
+
+.right-0 {
+  right: 0; }
+
+.left-0 {
+  left: 0; }
+
+.mapouter {
+  text-align: right;
+  height: 100%;
+  width: 100%; }
+
+.gmap_canvas {
+  overflow: hidden;
+  background: none !important;
+  height: 100%;
+  width: 100%; }
+
+.menu-item {
+  position: relative; }
+  .menu-item .underline {
+    z-index: -1;
+    top: 95%;
+    position: absolute;
+    width: 100%;
+    height: 6px;
+    border-radius: 3px;
+    background-color: transparent;
+    transition: all ease 0.3s; }
+
+.menu-item:hover .underline {
+  background-color: #d6c427; }
+
+.section-img {
+  float: right;
+  right: 0; }
+
+.section-title {
+  font: 38px Gudea-Bold;
+  line-height: 1.5; }
+
+.section-subtitle {
+  font-size: 26px; }
+
+.section-text {
+  font-size: 20px;
+  line-height: 1.4; }
+
+.section-card-title {
+  font-size: 22px; }
+
+.section-card-text {
+  font-size: 16px; }
+
+.clients-slider {
+  padding: 10px 0;
+  overflow-x: hidden;
+  width: 100%; }
+  .clients-slider img {
+    padding: 0 10px; }
+
+.socials-wrap {
+  margin-top: 30px;
+  border-left: 0;
+  display: flex; }
+  .socials-wrap a {
+    margin-right: 20px; }
+    .socials-wrap a .fa {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 20px;
+      width: 45px;
+      height: 45px;
+      padding: 7px;
+      transition: all ease 0.3s;
+      border: 1px solid transparent;
+      background-color: transparent; }
+    .socials-wrap a .fa-facebook {
+      color: #3b5998; }
+    .socials-wrap a .fa-twitter {
+      color: #01acec; }
+    .socials-wrap a .fa-youtube {
+      color: red; }
+    .socials-wrap a .fa-instagram {
+      color: #dd6758; }
+  .socials-wrap a:last-child {
+    margin-right: 0; }
+  .socials-wrap a:hover .fa-facebook {
+    color: white;
+    background-color: #3b5998; }
+  .socials-wrap a:hover .fa-twitter {
+    color: white;
+    background-color: #01acec; }
+  .socials-wrap a:hover .fa-youtube {
+    color: white;
+    background-color: red; }
+  .socials-wrap a:hover .fa-instagram {
+    color: white;
+    background-color: #dd6758; }
+
+.section-underline {
+  background-color: #d6c427;
+  height: 3px;
+  width: 50px;
+  margin: 0 auto; }
+
+@media only screen and (max-width: 768px) {
+  .menu-item .underline {
+    display: none; }
+
+  .section-underline {
+    background-color: #d6c427;
+    height: 2px;
+    width: 30px;
+    border-radius: 2px; }
+
+  .section-title {
+    line-height: 1.3;
+    font: 24px Gudea-Bold; }
+
+  .section-subtitle {
+    font-size: 18px; }
+
+  .section-text {
+    line-height: 1.2;
+    font-size: 16px; }
+
+  .section-card-title {
+    font-size: 18px; }
+
+  .section-card-text {
+    display: none; }
+
+  .menu-dark .menu-row .menu-col {
+    height: 40px !important; }
+
+  .socials-wrap {
+    margin-top: 15px;
+    border-left: 0;
+    display: flex; }
+    .socials-wrap a {
+      margin-right: 20px; }
+      .socials-wrap a .fa {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 20px;
+        width: 25px;
+        height: 25px;
+        padding: 5px;
+        transition: all ease 0.3s;
+        border: 1px solid transparent;
+        background-color: transparent; }
+      .socials-wrap a .fa-facebook {
+        color: #3b5998; }
+      .socials-wrap a .fa-twitter {
+        color: #01acec; }
+      .socials-wrap a .fa-youtube {
+        color: red; }
+      .socials-wrap a .fa-instagram {
+        color: #dd6758; }
+    .socials-wrap a:last-child {
+      margin-right: 0; }
+    .socials-wrap a:hover .fa-facebook {
+      color: white;
+      background-color: #3b5998; }
+    .socials-wrap a:hover .fa-twitter {
+      color: white;
+      background-color: #01acec; }
+    .socials-wrap a:hover .fa-youtube {
+      color: white;
+      background-color: red; }
+    .socials-wrap a:hover .fa-instagram {
+      color: white;
+      background-color: #dd6758; } }
+
+/*# sourceMappingURL=theme.css.map */

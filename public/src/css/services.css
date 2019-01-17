@@ -1,0 +1,122 @@
+.services-bcg {
+  background-image: linear-gradient(rgba(102, 102, 102, 0.7), rgba(102, 102, 102, 0.7)), url("../img/bcg/computer-1245714_1920.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+.services-sp .services-row {
+  padding-top: 50px;
+  height: 400px; }
+  .services-sp .services-row .img-col .hover-bcg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 20px;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    background-color: #3e7c36ee;
+    transition: all ease 0.3s; }
+    .services-sp .services-row .img-col .hover-bcg .hover-bcg-inner {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      align-items: center; }
+      .services-sp .services-row .img-col .hover-bcg .hover-bcg-inner .service-inner-desc {
+        font-size: 20px;
+        width: 100%;
+        padding: 0 5px;
+        color: white;
+        text-align: center; }
+      .services-sp .services-row .img-col .hover-bcg .hover-bcg-inner .border {
+        position: absolute;
+        height: 70%;
+        width: 2px;
+        background-color: white; }
+  .services-sp .services-row .web-service-bcg {
+    background-image: url("../img/bcg/technology-1283624_1920.jpg");
+    background-position: left;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: all ease 2s; }
+  .services-sp .services-row .mob-app-bcg {
+    background-image: url("../img/bcg/ux-787980_1920.jpg");
+    background-position: left;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: all ease 2s; }
+  .services-sp .services-row .seo-bcg {
+    background-image: url("../img/bcg/font-705667_1920.jpg");
+    background-position: left;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: all ease 2s; }
+  .services-sp .services-row .social-marketing-bcg {
+    background-image: url("../img/bcg/social-media-1795578_1920.jpg");
+    background-position: left;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: all ease 2s; }
+  .services-sp .services-row .digital-marketing-bcg {
+    background-image: url("../img/bcg/digital-marketing-1433427_1920.jpg");
+    background-position: left;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: all ease 2s; }
+  .services-sp .services-row .branding-bcg {
+    background-image: url("../img/bcg/hand-3190204_1920.jpg");
+    background-position: left;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: all ease 2s; }
+  .services-sp .services-row .service-text-col {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 15px 30px; }
+    .services-sp .services-row .service-text-col .service-top-title {
+      font-size: 26px;
+      color: #909090; }
+    .services-sp .services-row .service-text-col .service-main-title {
+      font-family: Gudea-Bold;
+      font-size: 50px;
+      margin: 20px 0; }
+    .services-sp .services-row .service-text-col .fa {
+      color: #909090;
+      font-size: 25px;
+      transition: all ease 0.3s; }
+.services-sp .services-row:hover .img-col .hover-bcg {
+  opacity: 1; }
+.services-sp .services-row:hover .service-text-col .fa {
+  color: #17cf17; }
+.services-sp .services-row:hover .web-service-bcg {
+  background-position: right; }
+.services-sp .services-row:hover .seo-bcg {
+  background-position: right; }
+.services-sp .services-row:hover .social-marketing-bcg {
+  background-position: right; }
+.services-sp .services-row:hover .digital-marketing-bcg {
+  background-position: right; }
+.services-sp .services-row:hover .branding-bcg {
+  background-position: right; }
+
+@media only screen and (max-width: 768px) {
+  .services-sp .services-row {
+    padding-top: 5px;
+    height: 250px; }
+    .services-sp .services-row .img-col {
+      height: 70%; }
+      .services-sp .services-row .img-col .hover-bcg .hover-bcg-inner .service-inner-desc {
+        font-size: 14px; }
+    .services-sp .services-row .service-text-col {
+      padding: 10px 20px;
+      height: 30%;
+      justify-content: flex-end; }
+      .services-sp .services-row .service-text-col .service-top-title {
+        font-size: 16px; }
+      .services-sp .services-row .service-text-col .service-main-title {
+        font-size: 22px;
+        margin: 3px 0 0; } }
+
+/*# sourceMappingURL=services.css.map */

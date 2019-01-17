@@ -1,0 +1,204 @@
+.contact-bcg{
+  background-image: linear-gradient(rgba(102, 102, 102, 0.7),rgba(102, 102, 102, 0.7)),url("../img/bcg/rotary-691528_1920.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.contact-sp{
+	.contact-row{
+		max-width: 800px;
+		.contact-form{
+			display: flex;
+			flex-direction: column;
+			align-items: flex-end;
+			padding: 15px;
+			width: 100%;
+			max-width: 500px;
+			.general-field{
+				width: 100%;
+				margin-bottom: 40px;
+				padding: 0 5px;
+				transition: all ease 0.3s;
+				outline: 1px solid transparent;
+				border: 0;
+				background-color: #f5f5f5;
+				border-bottom: 2px solid #a3a3a3;
+			}
+			.text-field{
+				width: 100%;
+				margin: 5px;
+				padding: 5px;
+				transition: all ease 0.3s;
+				outline: 1px solid transparent;
+				resize: none;
+				height: 120px;
+				border: 0;
+				background-color: #f5f5f5;
+				border-bottom: 2px solid #a3a3a3;
+			}
+			.submit-btn{
+				border: 2px solid #37b137;
+				padding: 5px 10px;
+				margin-top: 15px;
+				width: fit-content;
+				transition: all ease 0.3s;
+				background-color: transparent;
+			}
+			.general-field:focus{
+				outline: 1px solid #e6e6e6;
+				background-color: #f7ffdd;
+				border-bottom: 2px solid #05aa05;
+			}
+			.text-field:focus{
+				outline: 1px solid #e6e6e6;
+				background-color: #f7ffdd;
+				border-bottom: 2px solid #05aa05;
+			}
+			.submit-btn:hover{
+				color: white;
+				border: 2px solid #37b137;
+				background-color: #37b137;
+			}
+			input,textarea{
+				font-family: Gudea-Regular;
+				font-size: 16px;
+				border-radius : 2px;;
+			}
+			input::placeholder,textarea::placeholder{
+				font-family: Gudea-Regular;
+				font-size: 16px;
+				color: #afafaf;
+			}
+		}
+		.contact-text{
+			max-width: 500px;
+			font-size: 40px;
+			font-family: Gudea-Bold;
+			margin-bottom: 15px;
+		}
+		.contact-phone{
+			font-size: 22px;
+			color: #4a4a4a;
+			transition: all ease 0.3s;
+		}
+		.contact-phone:hover{
+			color: #08bb08;
+		}
+		.info-col{
+			.info-head{
+				font-family: Gudea-Bold;
+				margin-bottom: 5px;
+			}
+			.info-text{
+				color: #808080;
+			}
+			.socials-wrap{
+				margin-top: 30px;
+				border-left: 0;
+				display: flex;
+				a{
+				  margin-right: 20px;
+				  .fa{
+						display: flex;
+						justify-content: center;
+						align-items: center;
+						font-size: 20px;
+						width: 45px;
+						height: 45px;
+						padding: 7px;
+						transition: all ease 0.3s;
+						color: white;
+				  }
+				  .fa-facebook{
+						border: 1px solid #3b5998;
+						background-color: #3b5998;
+				  }
+				  .fa-twitter{
+						border: 1px solid #01acec;
+						background-color: #01acec;
+				  }
+				  .fa-youtube{
+						border: 1px solid red;
+						background-color: red;
+					}
+					.fa-instagram{
+						border: 1px solid #dd6758;
+						background-color: #dd6758;
+					}
+				}
+				a:last-child{
+				  margin-right: 0;
+				}
+				a:hover{
+				  .fa-facebook{
+						color: #3b5998;
+						background-color: white;
+				  }
+				  .fa-twitter{
+						color: #01acec;
+						background-color: white;
+				  }
+				  .fa-youtube{
+						color: red;
+						background-color: white;
+					}
+					.fa-instagram{
+						color: #dd6758;
+						background-color: white;
+					}
+				}
+			  }
+			.address-wrap,.phone-wrap,.email-wrap{
+				padding: 5px 5px 5px 15px;
+				margin: 30px 0;
+				border-left: 2px solid #05aa05;
+			}
+		}
+	}
+	
+}
+.map-row{
+	height: 500px;
+}
+@media only screen and (max-width: 768px){
+	.contact-sp{
+		padding-bottom: 20px !important;
+		.contact-row{
+			.contact-form{
+				padding: 5px;
+				.general-field{
+					margin-bottom: 20px;
+				}
+				.submit-btn{
+					margin: 0 auto;
+					margin-top: 10px;
+				}
+			}
+			.contact-text{
+				font-size: 28px;
+			}
+			.contact-phone{
+				font-size: 16px;
+			}
+			.info-col{
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				.address-wrap{
+					margin-top: 10px !important;
+				}
+				.socials-wrap{
+					display: flex;
+					justify-content: space-between;
+				}
+				.address-wrap,.phone-wrap,.email-wrap,.socials-wrap{
+					margin: 0 0 20px 0;
+					width: 230px;
+				}
+			}
+		}
+	}
+	.map-row{
+		height: 250px;
+	}
+}
